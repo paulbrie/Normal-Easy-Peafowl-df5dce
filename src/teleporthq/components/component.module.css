@@ -1,0 +1,21 @@
+.container {
+  flex: 0 0 auto;
+  width: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.image {
+  width: 175px;
+  height: 116px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.text {
+  margin-bottom: var(--dl-space-space-unit);
+}
